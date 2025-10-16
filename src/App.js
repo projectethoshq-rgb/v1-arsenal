@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { ChevronRight, ChevronDown, Search, Zap, Target, TrendingUp, Eye, Share2, BookOpen, Code, MessageCircle, Lightbulb } from 'lucide-react';
+import "./App.css";
 
 function App() {
   const [selectedScenario, setSelectedScenario] = useState(null);
